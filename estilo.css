@@ -2,13 +2,17 @@
 body {
   width: 430px;
   height: 932px;
+  justify-content: center;
+  margin: 80px auto;
 }
+
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* Centraliza vertical e horizontalmente */
-  margin: 80px auto; /* Mantém margem no topo e na base, e auto nas laterais */
+  width: 390px;
+  height: 892px;
+  padding: 80px, 0px, 80px, 0px;
 }
 
 #caixa {
@@ -23,15 +27,18 @@ main {
 }
 
 h1 {
+  display: flex;
   font-family: "Baloo 2", sans-serif;
   font-size: 24px;
   color: #c47f17;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 p {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
-  text-align: justify;
+  text-align: center;
 }
 
 button {
@@ -39,10 +46,13 @@ button {
   font-weight: bold;
   font-size: 14px;
   border-radius: 100px;
+  border: none;
   color: #ffffff;
   background-color: #54857b;
   width: 390px;
   height: 54px;
+  padding: 16px 0px 16px 0px;
+  gap: 4px;  
 }
 
 /* Configurações da tela Tablet(744x1133) */
@@ -52,8 +62,15 @@ button {
   body {
     width: 744px;
     height: 1133px;
-    justify-content: center; /* Centraliza vertical e horizontalmente */
-    margin: 80px auto; /* Mantém margem no topo e na base, e auto nas laterais */
+    justify-content: center;
+    margin: 80px auto; 
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 584px;
+    height: 973px;
   }
 
   #img {
@@ -82,8 +99,15 @@ button {
   body {
     width: 1280px;
     height: 832px;
-    justify-content: center; /* Centraliza vertical e horizontalmente */
-    margin: 80px auto; /* Mantém margem no topo e na base, e auto nas laterais */
+    justify-content: center;
+    margin: 80px auto;/
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1120px;
+    height: 832px;  
   }
 
   #img {

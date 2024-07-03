@@ -1,0 +1,32 @@
+/* Configurações da tela Desktop(1280x832) */
+@media (min-width: 1133px) {
+    /* CSS */
+    body {
+      width: 1280px;
+      height: 832px;
+      justify-content: center;
+      margin: 80px auto;/
+    }
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 1120px;
+      height: 832px;  
+    }
+  
+    #img {
+      height: 300px;
+      width: 300px;
+    }
+  
+    h1 {
+      font-family: "Baloo 2", sans-serif;
+      font-size: 48px;
+      color: #c47f17;
+    }
+  
+    p {
+      font-size: 24px;
+    }
+  }

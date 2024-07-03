@@ -1,0 +1,37 @@
+/* Configurações da tela Tablet(744x1133) */
+@media (min-width: 744px) and (max-width: 1133px) {
+    /* CSS */
+  
+    body {
+      width: 744px;
+      height: 1133px;
+      justify-content: center;
+      margin: 80px auto; 
+    }
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 584px;
+      height: 973px;
+    }
+  
+    #img {
+      height: 300px;
+      width: 300px;
+    }
+  
+    h1 {
+      font-family: "Baloo 2", sans-serif;
+      font-size: 40px;
+      color: #c47f17;
+    }
+  
+    p {
+      font-size: 20px;
+    }
+  
+    button {
+      background-color: #c47f17;
+    }
+  }
